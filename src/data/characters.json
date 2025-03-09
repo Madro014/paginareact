@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Goku",
+      "image": "https://media.gq.com.mx/photos/5f6ce732bc946e88f6c96320/16:9/w_2560%2Cc_limit/goky%2520ultra%2520instinto.jpg",
+      "darkImage": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/05/dragon-ball-manga-first-super-saiyan-transformation.jpg",
+      "description": "El guerrero más fuerte del universo."
+    },
+    {
+      "id": 2,
+      "name": "Vegeta",
+      "image": "https://areajugones.sport.es/wp-content/uploads/2021/08/vegeta-ultra-ego.jpg",
+      "darkImage": "https://s3.eu-central-1.wasabisys.com/mediacloud-anime/2023/12/20e587472134517a21cff3e5229876f18d2aab04r1-350-201v2_hq.jpg",
+      "description": "Príncipe de los Saiyajins."
+    },
+    {
+      "id": 3,
+      "name": "Bulma",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/02/primera-aparicion-bulma-no-fue-anime-dragon-ball-2227859.jpg?tf=3840x",
+      "darkImage": "https://es.dragon-ball-official.com/dragonball/en/news/2021/10/繝輔ｙ繝ｫ繝槭ヵ繧｡繝・す繝ｧ繝ｳ_豬ｷ螟暴繝輔ｙ繝ｫ繝槭ヵ繧｡繝・す繝ｧ繝ｳ_豬ｷ螟也判蜒・.jpg?_=1740198540",
+      "description": "Científica y creadora de las Dragon Balls."
+    }
+  ]

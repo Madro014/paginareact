@@ -1,0 +1,46 @@
+/* Estilos para el botón de cambio de modo */
+.mode-toggle {
+  position: fixed; /* Fija el botón en la pantalla */
+  top: 20px; /* Distancia desde la parte superior */
+  right: 20px; /* Distancia desde la derecha */
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el ícono y el texto */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Estilos para el ícono del dragón */
+.dragon-icon {
+  width: 50px; /* Tamaño del ícono */
+  height: auto;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Sombra para resaltar el ícono */
+}
+
+/* Estilos para el texto del modo */
+.mode-text {
+  font-family: "Dragon Ball Font", sans-serif; /* Fuente similar a Dragon Ball */
+  font-size: 18px;
+  color: #ffcc00; /* Color amarillo similar al de Dragon Ball */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para resaltar el texto */
+}
+
+/* Fuente personalizada (opcional) */
+@font-face {
+  font-family: "Dragon Ball Font";
+  src: url("https://fonts.cdnfonts.com/s/13654/Saiyan-Sans.woff") format("woff"); /* Fuente de Dragon Ball */
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos para el modo claro */
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}

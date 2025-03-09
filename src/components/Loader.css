@@ -1,0 +1,25 @@
+/* Contenedor del loader */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin-top: -50px; /* Sube la imagen 50px hacia arriba */
+  }
+  
+  /* Estilos para la imagen de las esferas */
+  .loader-image {
+    width: 150px; /* Aumenta el tamaño de las esferas a 150px */
+    height: auto;
+    animation: spin 2s linear infinite; /* Animación de giro */
+  }
+  
+  /* Animación de giro */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

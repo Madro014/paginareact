@@ -1,0 +1,38 @@
+.character-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s;
+    overflow: hidden; /* Oculta el desbordamiento de la imagen al hacer zoom */
+    background-color: #fff; /* Fondo claro por defecto */
+    color: #000; /* Texto oscuro por defecto */
+  }
+  
+  .character-card.dark-mode {
+    background-color: #444; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    border-color: #666; /* Borde más claro en modo oscuro */
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para las imágenes */
+  .character-card img {
+    width: 100%; /* La imagen ocupará el 100% del ancho de la tarjeta */
+    height: 150px; /* Alto fijo para todas las imágenes */
+    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  /* Efecto de zoom al pasar el cursor sobre la tarjeta */
+  .character-card:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+  }
